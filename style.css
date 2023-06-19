@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img{
+    height:5rem;
+    width:100%;
+}
+.form-input{
+    border: none;
+
+}
+.modal-body form{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    padding: 2rem;
+}
+.form-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.submit-btn{
+width: fit-content !important;
+}
+.carousel-inner{
+    display: flex;
+}
+.carousel-caption {
+    max-width: 100%;
+    width:70%;
+    align-items: center;
+   }
+.content-sec .row{
+    display: flex;
+    align-items: center;
+}
+.content-right img{
+    width: 100%;
+}
+.course-sec .row{
+    display: flex;
+    align-items: center;
+}
+.course-left img{
+    width: 100%;
+}
+.course-sec-heading{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.course-title span{
+    color: blueviolet;
+}
+.course-title h1{
+   text-align: center;
+}
+.card-title{
+    margin-top: 2rem;
+}
+.card-main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn-card-content{
+    padding: .5rem;
+    color: #fff;
+    background-color: rgb(105, 9, 196);
+    border: none;
+}
+.card-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+.card-button{
+    padding: .5rem;
+    color: black;
+    border-radius: 13rem;
+    padding: .8rem;
+    border:2px  rgb(105, 9, 196) solid;
+}
+.card-button:hover{
+    background-color: rgb(105, 9, 196);
+    color: #fff;
+}
+.content-btn{
+    margin-top: 2rem;
+}
+.content-button{
+    background-color: rgb(105, 9, 196);
+    padding: .5rem;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border:2px  rgb(105, 9, 196) solid;
+}
+.content-button:hover{
+   background-color: #fff;
+    color: black;
+}
